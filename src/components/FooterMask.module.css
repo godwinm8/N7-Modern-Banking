@@ -1,0 +1,420 @@
+.footerMask,
+.maskArea {
+  width: 100%;
+  max-width: 100%;
+}
+.footerMask {
+  height: 787px;
+  background-color: var(--black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 130px 53px var(--padding-32);
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: var(--gap-80);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--white);
+  font-family: var(--font-archivo);
+}
+.maskArea {
+  height: var(--height-556_8);
+  position: absolute;
+  margin: 0 !important;
+  top: 547.5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  filter: blur(200px);
+  border-radius: var(--br-50);
+  background: var(--gradient-11);
+}
+.n7LogoWrapper {
+  position: relative;
+  width: 300px;
+  height: 232px;
+  flex-shrink: 0;
+  overflow: visible;
+}
+.n7LogoText {
+  margin: 0;
+  position: absolute;
+  top: -30px;
+  left: -20px;
+  font-size: 240px;
+  font-weight: 600;
+  line-height: 1;
+  font-family: var(--font-archivo);
+  background: linear-gradient(103.43deg, #00b4fd 10%, #003ace 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.footerContent,
+.locationDetails {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerContent {
+  gap: 50.7px;
+  flex-shrink: 0;
+}
+.locationDetails {
+  gap: var(--gap-34);
+}
+.londonContent,
+.londonContentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.londonContentParent {
+  gap: 128px;
+}
+.londonContent {
+  gap: var(--gap-16);
+}
+.linktiaInfosystemsLtd,
+.london {
+  position: relative;
+  line-height: 130%;
+}
+.london {
+  font-weight: 500;
+  color: #ebf5fa;
+}
+.linktiaInfosystemsLtd {
+  width: var(--width-268_5);
+  display: inline-block;
+  opacity: var(--opacity-0_7);
+  color: #a2aeb3;
+}
+.solutionsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-10);
+}
+.solutionsItems {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-14);
+}
+.solutionSpacerIcon {
+  height: var(--height-14_5);
+  width: var(--width-13_6);
+  position: relative;
+  object-fit: contain;
+}
+.openBanking {
+  width: var(--width-136_5);
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  flex-shrink: 0;
+  opacity: var(--opacity-0_7);
+  color: #a2aeb3;
+}
+.dubaiContentParent,
+.solutionsItems4 {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-14);
+}
+.dubaiContentParent {
+  flex-direction: column;
+  gap: var(--gap-107);
+}
+.brandCenterParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-14);
+}
+.globalArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-107);
+}
+.linktiaInfosystemsLtd3 {
+  width: 211.3px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  opacity: var(--opacity-0_7);
+  color: #a2aeb3;
+}
+.copyrightNotice {
+  width: 1334px;
+  display: flex;
+  align-items: flex-start;
+
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-64);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-14);
+  color: var(--color-aliceblue-100);
+}
+.copyright2022 {
+  height: var(--height-36);
+  width: 779.4px;
+
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+  color: #46565e;
+}
+
+@media screen and (max-width: 1350px) {
+  .footerMask {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px 40px;
+  }
+
+  .footerContent {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .locationDetails {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .copyrightNotice {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .copyright2022 {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footerMask {
+    padding: 80px 30px 30px;
+    gap: 50px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .n7LogoWrapper {
+    width: 220px;
+    height: 170px;
+  }
+
+  .n7LogoText {
+    font-size: 170px;
+    top: 0;
+    left: 0;
+  }
+
+  .locationDetails {
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .londonContentParent,
+  .dubaiContentParent,
+  .globalArea {
+    gap: 50px;
+  }
+
+  .linktiaInfosystemsLtd,
+  .linktiaInfosystemsLtd3 {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footerMask {
+    padding: 60px 20px 25px;
+    gap: 40px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .locationDetails {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .londonContentParent,
+  .dubaiContentParent,
+  .globalArea {
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .londonContent {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .solutionsList {
+    align-items: center;
+  }
+
+  .solutionsItems,
+  .solutionsItems4,
+  .brandCenterParent {
+    justify-content: center;
+  }
+
+  .n7LogoWrapper {
+    width: 180px;
+    height: 140px;
+  }
+
+  .n7LogoText {
+    font-size: 130px;
+    left: 0;
+    top: 0;
+  }
+
+  .linktiaInfosystemsLtd,
+  .linktiaInfosystemsLtd3 {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .copyright2022 {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footerMask {
+    padding: 40px 16px 20px;
+    gap: 30px;
+  }
+
+  .n7LogoWrapper {
+    width: 140px;
+    height: 100px;
+  }
+
+  .n7LogoText {
+    font-size: 90px;
+    top: 0;
+    left: 0;
+  }
+
+  .locationDetails {
+    gap: 30px;
+  }
+
+  .londonContentParent,
+  .dubaiContentParent,
+  .globalArea {
+    gap: 30px;
+  }
+
+  .london {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .openBanking {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .linktiaInfosystemsLtd,
+  .linktiaInfosystemsLtd3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .solutionSpacerIcon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .copyrightNotice {
+    width: 100%;
+    padding: 0;
+  }
+
+  .copyright2022 {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.updateDesign,
+.sampleListing,
+.footerMask {
+  animation: fadeUp 1s ease-out;
+}
+
+.openBanking {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.openBanking:hover {
+  color: #00b4fd;
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+.n7LogoText {
+  transition: all 0.5s ease;
+}
+
+.n7LogoWrapper:hover .n7LogoText {
+  transform: scale(1.05);
+}

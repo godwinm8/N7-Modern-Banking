@@ -1,0 +1,50 @@
+.maskGroup {
+  height: 232px;
+  width: 440px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.maskGroupChild,
+.maskGroupItem,
+.underlay {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.underlay {
+  display: none;
+}
+.maskGroupChild,
+.maskGroupItem {
+  filter: blur(100px);
+  border-radius: var(--br-50);
+}
+.maskGroupChild {
+  height: 251.4px;
+  width: 251.4px;
+  right: 12.9px;
+  bottom: -73.1px;
+
+  z-index: 1;
+}
+.maskGroupItem {
+  height: 127.6px;
+  width: 127.6px;
+  bottom: -4.7px;
+  left: 67.3px;
+
+  mix-blend-mode: color-dodge;
+  z-index: 2;
+}
+@media screen and (max-width: 1350px) {
+  .maskGroup {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .maskGroup {
+    min-width: 100%;
+  }
+}

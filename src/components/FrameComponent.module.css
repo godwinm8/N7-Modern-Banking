@@ -1,0 +1,51 @@
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-26);
+  text-align: left;
+  font-size: var(--fs-22);
+  color: var(--white);
+  font-family: var(--font-archivo);
+}
+.frameChild {
+  width: var(--width-47);
+  height: var(--height-49);
+  position: relative;
+}
+.coreBankingCb7Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-32);
+}
+.cb7HelpsYour,
+.coreBankingCb7 {
+  position: relative;
+  display: inline-block;
+}
+.coreBankingCb7 {
+  margin: 0;
+  width: var(--width-263_7);
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  color: #ebf5fa;
+}
+.cb7HelpsYour {
+  width: var(--width-268_5);
+  font-size: var(--fs-16);
+  line-height: 130%;
+  opacity: var(--opacity-0_7);
+  color: #ebf5fa;
+}
+@media screen and (max-width: 450px) {
+  .coreBankingCb7Parent {
+    gap: var(--gap-16);
+  }
+  .coreBankingCb7 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-21);
+  }
+}

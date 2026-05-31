@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4_6);
+  text-align: left;
+  font-size: var(--fs-13_8);
+  color: #4e6378;
+  font-family: var(--font-roboto);
+}
+.root[data-name="Zoomerr"] {
+  gap: 7.5px;
+}
+.root[data-name="Zoomerr"] .vectorIcon {
+  height: var(--height-30);
+  width: 20px;
+}
+.root[data-name="SmartFinder"] .vectorIcon {
+  width: 19.1px;
+}
+.root[data-name="ArtVenue"] .vectorIcon {
+  width: 32.1px;
+}
+.root[data-name="Kontrastr"] .vectorIcon {
+  height: 16.8px;
+  width: var(--width-13_7);
+}
+.root[data-name="Waves"] .vectorIcon {
+  width: 12.1px;
+}
+.root[data-name="Zoomerr"] .shells {
+  font-size: 16.5px;
+  margin: 0;
+}
+.root[data-name="Waves"] .shells {
+  font-size: 10.3px;
+  line-height: unset;
+  font-family: unset;
+}
+.vectorIcon {
+  height: var(--height-18_4);
+  width: 17.5px;
+  position: relative;
+}
+.shells {
+  position: relative;
+  line-height: 110%;
+}

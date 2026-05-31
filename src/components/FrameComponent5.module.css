@@ -1,0 +1,32 @@
+.frameWrapper {
+  width: var(--width-1440);
+  height: 116px;
+  background-color: var(--White);
+  overflow: hidden;
+  padding: 24.8px var(--padding-0) 25.2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-47);
+  color: var(--black);
+  font-family: var(--font-archivo);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.iconElementsParent {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: var(--gap-24);
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

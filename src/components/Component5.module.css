@@ -1,0 +1,34 @@
+.component5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3);
+  text-align: right;
+  font-size: var(--fs-14);
+  color: var(--blue);
+  font-family: var(--font-chivo-mono-medium);
+}
+.viewAllLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5);
+}
+.viewAll {
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.linkSeparatorIcon {
+  height: var(--height-14_5);
+  width: var(--width-13_6);
+  position: relative;
+  object-fit: contain;
+}
+.allPartnersView {
+  width: var(--width-33_6);
+  height: var(--height-1);
+  position: relative;
+  border-top: var(--border-31);
+  box-sizing: border-box;
+}

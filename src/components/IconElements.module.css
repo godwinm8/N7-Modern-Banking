@@ -1,0 +1,39 @@
+.iconElements {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-24);
+  text-align: left;
+  font-size: var(--fs-47);
+  color: var(--black);
+  font-family: var(--font-archivo);
+  flex-shrink: 0;
+  padding-right: var(--gap-24);
+}
+.vectorIcon {
+  height: var(--height-58);
+  width: var(--width-58);
+  position: relative;
+}
+.n7,
+.say {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-family: inherit;
+}
+.n7 {
+  font-weight: 500;
+  background: var(--sky);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.say {
+  font-weight: 600;
+}
+.httpslottiefilescomanimatIcon {
+  height: var(--height-66);
+  width: var(--width-93_1);
+  position: relative;
+  object-fit: contain;
+}

@@ -1,0 +1,20 @@
+.requestDemoWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-15) var(--padding-51);
+  background-color: transparent;
+  border-radius: var(--br-10);
+  background: var(--sky);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.requestDemo {
+  position: relative;
+  font-size: var(--fs-15);
+  line-height: 130%;
+  text-transform: uppercase;
+  font-family: var(--font-chivo-mono-medium);
+  color: var(--White);
+  text-align: left;
+}

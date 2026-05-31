@@ -1,0 +1,842 @@
+.graphicElements,
+.instanceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.instanceParent {
+  background-color: var(--White);
+  text-align: left;
+  font-size: var(--fs-572_6);
+  color: transparent;
+  font-family: var(--font-archivo);
+}
+.graphicElements {
+  width: var(--width-1440);
+  height: 2647px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-100) var(--padding-80) 115.6px 81px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 155.7px;
+}
+
+.graphicElements {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  overflow: hidden;
+}
+
+.n7,
+.spacingLabel {
+  max-width: 100%;
+}
+
+.digitalBankingOutOfTheBox,
+.n7HelpsYour,
+.takeTheFull,
+.n7HelpsYour2 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.bankingContainer,
+.mockup,
+.advantage {
+  width: 100%;
+}
+
+.iphone13Pro {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.graphicElementsChild,
+.graphicElementsItem,
+.graphicElementsInner,
+.frameChild {
+  animation: glowMove 12s ease-in-out infinite;
+}
+
+.n7 {
+  width: 744px;
+  height: var(--height-687);
+  top: -66.7px;
+  left: 277px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  -webkit-text-stroke: var(--text-stroke-3);
+  paint-order: stroke fill;
+  opacity: var(--opacity-0_5);
+}
+.graphicElementsChild,
+.n7,
+.spacingLabel {
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+}
+.graphicElementsChild {
+  width: 778.7px;
+  height: 778.7px;
+  top: 1928.6px;
+  left: -364.2px;
+  filter: blur(100px);
+  border-radius: var(--br-50);
+  background: var(--gradient-5);
+}
+.spacingLabel {
+  width: 861px;
+  height: 1829px;
+  top: 957.3px;
+  left: 956.9px;
+  font-size: 1524.1px;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  opacity: 0.2;
+  -webkit-text-stroke: var(--text-stroke-4);
+}
+.graphicElementsInner,
+.graphicElementsItem,
+.vectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  width: 86.33%;
+  height: 47.04%;
+  top: 15.8%;
+  right: 66.67%;
+  bottom: 37.16%;
+  left: -27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.graphicElementsInner,
+.graphicElementsItem {
+  filter: blur(100px);
+  border-radius: var(--br-50);
+}
+.graphicElementsItem {
+  width: 585.9px;
+  height: 585.9px;
+  top: -260.9px;
+  left: -85.9px;
+  background: var(--gradient-6);
+}
+.graphicElementsInner {
+  width: 778.7px;
+  height: 778.7px;
+  top: -91.6px;
+  left: 661.3px;
+  background: var(--gradient-7);
+}
+.bankingContainer,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.bankingContainer {
+  gap: 102px;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-16);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--fs-53);
+  color: var(--black);
+  font-family: var(--font-archivo);
+}
+.digitalBankingOutOfTheBoxParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-36);
+}
+.digitalBankingOutOfTheBoxParent {
+  justify-content: center;
+  gap: var(--gap-16);
+}
+.digitalBankingOutOfTheBox {
+  margin: 0;
+  width: 439px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  opacity: 0.95;
+  color: #0c191f;
+}
+.n7HelpsYour {
+  width: 379px;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 130%;
+  display: inline-block;
+  opacity: var(--opacity-0_7);
+  color: #455157;
+}
+.adapting,
+.mockup {
+  display: flex;
+  align-items: center;
+}
+.mockup {
+  flex-direction: column;
+  gap: 110px;
+  max-width: 100%;
+  z-index: 1;
+}
+.adapting {
+  padding: var(--padding-0) var(--padding-19);
+  gap: 76px;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--black);
+  font-family: var(--font-archivo);
+}
+.architecture,
+.performance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.architecture {
+  padding: var(--padding-20) var(--padding-0);
+  gap: var(--gap-43);
+}
+.performance {
+  gap: var(--gap-24);
+}
+.legacyHeader {
+  width: var(--width-269);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5);
+}
+.legacyHeaderChild {
+  height: var(--height-31_4);
+  width: var(--width-30);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.noLegacyIt,
+.ourDigitalBanking {
+  position: relative;
+  line-height: 130%;
+}
+.noLegacyIt {
+  flex: 1;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.ourDigitalBanking {
+  width: var(--width-268_5);
+  display: inline-block;
+  opacity: var(--opacity-0_7);
+}
+.integrationCapabilities {
+  width: var(--width-269);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12);
+}
+.featureContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.featureContainerChild {
+  height: var(--height-31_4);
+  width: var(--width-30);
+  position: relative;
+
+  transform: translateX(40px);
+}
+.adaptiveIntelligent,
+.ambientUserExperience,
+.cloudNativeWithLower {
+  flex: unset;
+
+  width: auto;
+  min-width: 0;
+  line-height: 130%;
+  font-weight: 500;
+  opacity: var(--opacity-0_7);
+}
+.ambientUserExperience,
+.cloudNativeWithLower {
+  min-width: 146px;
+}
+.cloudNativeWithLower {
+  min-width: 152px;
+}
+.iphone13Pro {
+  height: var(--height-542_9);
+  width: var(--width-268_3);
+  position: relative;
+  object-fit: cover;
+}
+.advantage {
+  border-radius: 27px;
+  background: var(--gradient-4);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 112.3px var(--padding-64) 112.7px var(--padding-65);
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 84.2px;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.n72 {
+  margin: 0 !important;
+  height: var(--height-687);
+  width: 744px;
+  position: absolute;
+  top: -160.7px;
+  right: -26.6px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  -webkit-text-stroke: var(--text-stroke-7);
+  paint-order: stroke fill;
+  opacity: var(--opacity-0_5);
+  flex-shrink: 0;
+}
+.digitizationGoal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-32);
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+  font-size: var(--fs-53);
+  color: var(--white);
+}
+.n7HelpsYour2,
+.takeTheFull {
+  position: relative;
+  display: inline-block;
+}
+.takeTheFull {
+  margin: 0;
+  width: var(--width-607_8);
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  color: #ebf5fa;
+}
+.n7HelpsYour2 {
+  width: 462.9px;
+  font-size: var(--fs-16);
+  line-height: 130%;
+  opacity: var(--opacity-0_7);
+  color: #a3b0b5;
+}
+.demandArea,
+.requirementPanel {
+  display: flex;
+  align-items: flex-start;
+}
+.demandArea {
+  height: 125.3px;
+  flex-direction: column;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.requirementPanel {
+  height: var(--height-49);
+  gap: var(--gap-40);
+}
+
+@media screen and (max-width: 1350px) {
+  .graphicElements {
+    width: 100%;
+    height: auto;
+    padding: 60px 40px;
+    gap: 100px;
+  }
+
+  .bankingContainer {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .frameParent,
+  .mockup {
+    width: 100%;
+  }
+
+  .advantage {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 80px 40px;
+  }
+
+  .digitizationGoal,
+  .demandArea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .graphicElements {
+    padding: 50px 30px;
+    gap: 80px;
+  }
+
+  .n7 {
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 220px;
+    text-align: center;
+  }
+
+  .spacingLabel {
+    font-size: 500px;
+    left: auto;
+    right: -100px;
+    top: 1100px;
+  }
+
+  .digitalBankingOutOfTheBox,
+  .takeTheFull {
+    width: 100%;
+    font-size: 42px;
+    line-height: 1.2;
+  }
+
+  .n7HelpsYour,
+  .n7HelpsYour2 {
+    width: 100%;
+  }
+
+  .mockup {
+    gap: 70px;
+  }
+
+  .adapting {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .iphone13Pro {
+    width: 240px;
+    height: auto;
+  }
+
+  .requirementPanel {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graphicElements {
+    padding: 40px 20px;
+    gap: 60px;
+  }
+
+  .n7 {
+    font-size: 160px;
+    top: -20px;
+  }
+
+  .spacingLabel {
+    font-size: 300px;
+    line-height: 1;
+    right: -80px;
+    top: 1200px;
+  }
+
+  .graphicElementsInner,
+  .graphicElementsChild,
+  .graphicElementsItem {
+    filter: blur(70px);
+  }
+
+  .digitalBankingOutOfTheBox,
+  .takeTheFull {
+    font-size: 34px;
+  }
+
+  .bankingContainer {
+    gap: 40px;
+  }
+
+  .mockup {
+    gap: 50px;
+  }
+
+  .advantage {
+    padding: 60px 24px;
+    gap: 30px;
+    border-radius: 20px;
+  }
+
+  .n72 {
+    font-size: 160px;
+    right: -40px;
+    top: -80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .graphicElements {
+    padding: 30px 16px;
+    gap: 40px;
+    overflow: hidden;
+  }
+
+  .featureContainer,
+  .regulationsContainer,
+  .regulationsContainer2,
+  .regulationsContainer3,
+  .legacyHeader,
+  .regulationHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .featureContainerChild,
+  .regulationsContainerChild,
+  .legacyHeaderChild,
+  .regulationHeaderChild {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+
+    margin-top: 2px;
+  }
+
+  .adaptiveIntelligent,
+  .ambientUserExperience,
+  .cloudNativeWithLower,
+  .preIntegratedSecuritySystem,
+  .fullyCompliantWith,
+  .noLegacyIt {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    word-break: break-word;
+    line-height: 140%;
+  }
+
+  .n7 {
+    font-size: 110px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .spacingLabel {
+    font-size: 180px;
+    right: -50px;
+    top: 1350px;
+  }
+
+  .vectorIcon {
+    display: none;
+  }
+
+  .digitalBankingOutOfTheBox,
+  .takeTheFull {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .n7HelpsYour,
+  .n7HelpsYour2 {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .frameGroup,
+  .digitizationGoal,
+  .architecture {
+    gap: 20px;
+  }
+
+  .bankingContainer,
+  .mockup {
+    gap: 32px;
+  }
+
+  .adapting {
+    padding: 0;
+  }
+
+  .advantage {
+    padding: 40px 16px;
+    gap: 24px;
+  }
+
+  .n72 {
+    font-size: 110px;
+    top: -40px;
+    right: -20px;
+  }
+
+  .requirementPanel {
+    gap: 16px;
+  }
+
+  .featureContainerChild {
+    transform: translateX(-40px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .adapting {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .architecture {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .performance,
+  .integrationCapabilities {
+    width: 100%;
+    align-items: center;
+  }
+
+  .legacyHeader,
+  .featureContainer {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .ourDigitalBanking,
+  .adaptiveIntelligent,
+  .ambientUserExperience,
+  .cloudNativeWithLower,
+  .noLegacyIt {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .iphone13Pro {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .featureContainerChild {
+    transform: translateX(-120px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .adapting {
+    gap: 24px;
+  }
+
+  .architecture {
+    gap: 20px;
+  }
+
+  .iphone13Pro {
+    width: 180px;
+  }
+
+  .ourDigitalBanking,
+  .adaptiveIntelligent,
+  .ambientUserExperience,
+  .cloudNativeWithLower {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frameParent {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .frameGroup {
+    width: 100%;
+  }
+
+  .digitalBankingOutOfTheBox {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .n7HelpsYour {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .frameParent,
+  .digitizationGoal {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameGroup,
+  .demandArea {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .requirementPanel {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .frameParent {
+    align-items: center;
+    text-align: center;
+  }
+
+  .digitalBankingOutOfTheBoxParent {
+    align-items: center;
+  }
+
+  .digitizationGoal {
+    align-items: center;
+    text-align: center;
+  }
+
+  .requirementPanel {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    width: 100%;
+    align-items: center;
+  }
+
+  .digitalBankingOutOfTheBox {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .n7HelpsYour {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .takeTheFull {
+    width: 100%;
+    text-align: center;
+  }
+
+  .n7HelpsYour2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .requirementPanel {
+    width: 100%;
+    justify-content: center;
+
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .frameGroup,
+  .digitizationGoal {
+    align-items: center;
+  }
+
+  .digitalBankingOutOfTheBox,
+  .takeTheFull {
+    width: 100%;
+    text-align: center;
+  }
+
+  .n7HelpsYour,
+  .n7HelpsYour2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .requirementPanel {
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .requirementPanel > * {
+    width: 100%;
+    max-width: 280px;
+  }
+}

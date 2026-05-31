@@ -1,0 +1,213 @@
+.divisionsInner {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-22_6);
+  text-align: left;
+  font-size: var(--fs-8_7);
+  color: var(--color-steelblue);
+  font-family: var(--font-chivo-mono-medium);
+}
+.articleLayouts,
+.articleLayoutsParent,
+.divisionsInner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.articleLayoutsParent {
+  border-radius: var(--br-15_7);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-22_3) var(--padding-10) var(--padding-25_1)
+    var(--padding-20);
+  gap: var(--gap-67_7);
+  opacity: var(--opacity-0_3);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.articleLayouts {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2);
+}
+.figureFormatWrapper {
+  border-radius: var(--br-10);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-33_4) var(--padding-23) var(--padding-33_5);
+}
+.figureFormat {
+  width: var(--width-321_2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-24) var(--gap-78_7);
+}
+.iconsUsed {
+  height: var(--height-121_2);
+  width: var(--width-121);
+  position: relative;
+}
+.categoryLayout,
+.categoryLayoutParent,
+.sampleLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-31_7);
+  max-width: 100%;
+}
+.categoryLayout,
+.categoryLayoutParent {
+  gap: var(--gap-8_9);
+}
+.categoryLayout {
+  width: var(--width-419_5);
+  gap: var(--gap-9_6);
+  flex-shrink: 0;
+}
+.gettingStarted {
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+  opacity: var(--opacity-0_5);
+}
+.howWeHelp {
+  width: var(--width-369_3);
+  position: relative;
+  font-size: var(--fs-32_3);
+  line-height: 120%;
+  font-family: var(--font-archivo);
+  color: var(--white);
+  display: inline-block;
+}
+.categoryLayoutChild {
+  width: var(--width-93_5);
+  height: var(--height-11_4);
+  display: flex;
+  align-items: flex-start;
+}
+.ourApiBanking {
+  width: var(--width-359_8);
+  height: var(--height-144);
+  position: relative;
+  font-size: var(--fs-14);
+  line-height: 130%;
+  font-family: var(--font-archivo);
+  background: var(--gradient-10);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .divisionsInner {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .articleLayoutsParent {
+    gap: 40px;
+  }
+
+  .divisionsInner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .articleLayoutsParent {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .articleLayouts,
+  .sampleLinks {
+    width: 100%;
+    flex: unset;
+  }
+
+  .categoryLayout,
+  .howWeHelp,
+  .ourApiBanking {
+    width: 100%;
+  }
+
+  .ourApiBanking {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .articleLayoutsParent {
+    padding: 20px;
+    gap: 24px;
+  }
+
+  .figureFormatWrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .figureFormat {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .iconsUsed {
+    width: 100px;
+    height: auto;
+  }
+
+  .howWeHelp {
+    width: 100%;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .ourApiBanking {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .articleLayoutsParent {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .figureFormat {
+    gap: 16px;
+  }
+
+  .iconsUsed {
+    width: 70px;
+    height: auto;
+  }
+
+  .sampleLinks {
+    gap: 12px;
+  }
+
+  .howWeHelp {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .ourApiBanking {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+    height: auto;
+  }
+}

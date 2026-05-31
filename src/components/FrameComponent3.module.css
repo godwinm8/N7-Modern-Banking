@@ -1,0 +1,20 @@
+.contactUsWrapper {
+  cursor: pointer;
+  border: var(--border-1);
+  padding: var(--padding-15) var(--padding-59);
+  background-color: transparent;
+  border-radius: var(--br-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #ebf5fa;
+}
+.contactUs {
+  position: relative;
+  font-size: var(--fs-15);
+  line-height: 130%;
+  text-transform: uppercase;
+  font-family: var(--font-chivo-mono-medium);
+  color: #ebf5fa;
+  text-align: left;
+}

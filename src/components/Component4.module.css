@@ -1,0 +1,37 @@
+.component4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3);
+  text-align: right;
+  font-size: var(--fs-14);
+  font-family: var(--font-chivo-mono-medium);
+}
+.learnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5);
+}
+.learnMore {
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+  background: var(--gradient-8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.paddingIcon {
+  height: var(--height-14_5);
+  width: var(--width-13_6);
+  position: relative;
+  object-fit: contain;
+}
+.component4Child {
+  width: var(--width-33_6);
+  height: var(--height-1);
+  position: relative;
+  background: var(--gradient-9);
+  border-top: 1px solid transparent;
+  box-sizing: border-box;
+}
