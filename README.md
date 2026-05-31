@@ -10,7 +10,7 @@ https://your-vercel-url.vercel.app
 ## GitHub Repository
 
 Repository:
-https://github.com/your-username/n7-frontend
+https://github.com/godwinm8/N7-Modern-Banking.git
 
 ---
 
@@ -193,7 +193,10 @@ git --version
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/n7-frontend.git
+git clone ### Clone the Repository
+
+```bash
+git clone https://github.com/godwinm8/N7-Modern-Banking.git
 ```
 
 ---
@@ -201,7 +204,7 @@ git clone https://github.com/your-username/n7-frontend.git
 ### Navigate to the Project Folder
 
 ```bash
-cd n7-frontend
+cd N7-Modern-Banking
 ```
 
 ---
@@ -223,7 +226,7 @@ npm run dev
 The application will start locally at:
 
 ```text
-http://localhost:5173
+http://localhost:5175
 ```
 
 ---
